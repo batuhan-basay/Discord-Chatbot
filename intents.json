@@ -1,0 +1,235 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Selam",
+        "Hey",
+        "Nasilsin",
+        "Kimse yok mu?",
+        "Merhaba",
+        "Iyi gunler"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Merhaba, ziyaret ettiginiz icin tesekkurler",
+        "Merhabalar, senin icin ne yapabilirim?",
+        "Merhabalar, nasil yardimci olabilirim?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [ "Hoscakal", "Sonra gorusuruz", "Gule gule","by","bay" ],
+      "responses": [
+        "Sonra gorusuruz, ziyaret ettiginiz icin tesekkurler",
+        "Iyi gunler dilerim",
+        "Gule gule! Kisa sure sonra tekrar gelin."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [ "Tesekkurler", "Tesekkur ederim", "Yardimci oldu", "Cok tesekkyr ederim" ],
+      "responses": [ "Yardimci olmaktan mutluluk duyariz!", "Her zaman!", "Memnuniyetle" ]
+    },
+    {
+      "tag": "unity",
+      "patterns": [
+        "unity egitimi",
+        "unity kaynak",
+        "unity dersi",
+        "unity nasil ogrenirim",
+        "unity nasil ogrenirim",
+        "unity"
+      ],
+      "responses": [
+        "unity egitimi giris:https://gelecegiyazanlar.turkcell.com.tr/konu/unity",
+        "unity egitimi orta:https://gelecegiyazanlar.turkcell.com.tr/konu/egitim/unity-201-unitye-giris/201-modulune-giris",
+        "unity egitimi ileri:https://gelecegiyazanlar.turkcell.com.tr/konu/egitim/unity-301-uzay-savasi-oyunu/301-modulune-giris",
+        "unity egitimi ornek oyun yapimi:https://gelecegiyazanlar.turkcell.com.tr/konu/egitim/unity-401-uzay-macerasi-oyunu/401-modulune-giris"
+
+      ]
+    },
+    {
+      "tag": "linux",
+      "patterns": [
+        "linux egitimi",
+        "linux kaynak",
+        "linux dersi",
+        "linux nasil ogrenirim",
+        "linux nasil ogrenirim",
+        "linux"
+
+      ],
+      "responses": [
+        "linux egitimi:https://gelecegiyazanlar.turkcell.com.tr/konu/temel-linux",
+        "linux kaynagi:https://gelecegiyazanlar.turkcell.com.tr/konu/temel-linux",
+        "linux ogrenmek icin:https://gelecegiyazanlar.turkcell.com.tr/konu/temel-linux"
+      ]
+    },
+    {
+      "tag": "flutter",
+      "patterns": [
+        "flutter egitimi",
+        "flutter kaynak",
+        "flutter dersi",
+        "flutter nasil ogrenirim",
+        "flutter nasil oğrenirim",
+        "flutter"
+      ],
+      "responses": [
+        "flutter egitimi:https://gelecegiyazanlar.turkcell.com.tr/konu/android",
+        "flutter kaynagi:https://gelecegiyazanlar.turkcell.com.tr/konu/android",
+        "flutter ogrenmek icin:https://gelecegiyazanlar.turkcell.com.tr/konu/android"
+
+        
+      ]
+    },
+    {
+      "tag": "python",
+      "patterns": [
+        "python egitimi",
+        "python kaynak",
+        "python dersi",
+        "python nasil ogrenirim",
+        "python nasil ogrenirim",
+        "python"
+      ],
+      "responses": [
+        "python egitimi:https://gelecegiyazanlar.turkcell.com.tr/konu/python",
+        "python kaynagi:https://gelecegiyazanlar.turkcell.com.tr/konu/python",
+        "python ogrenmek icin:https://gelecegiyazanlar.turkcell.com.tr/konu/python"
+      ]
+    },
+    {
+      "tag": "csharp",
+      "patterns": [
+        "c# egitimi",
+        "c# kaynak",
+        "c# dersi",
+        "c# nasil ogrenirim",
+        "c# nasil ogrenirim",
+        "c#"
+      ],
+      "responses": [
+        "c# giris seviyesi egitim linki https://gelecegiyazanlar.turkcell.com.tr/konu/egitim/c-101/c-egitimlerine-baslarken",
+        "c# kaynagi: https://gelecegiyazanlar.turkcell.com.tr/konu/egitim/c-101/c-egitimlerine-baslarken",
+        "c# ogrenmek icin: https://gelecegiyazanlar.turkcell.com.tr/konu/egitim/c-101/c-egitimlerine-baslarken"
+
+      ]
+    },
+    {
+      "tag": "sql-egitimi",
+      "patterns": [
+        "SQL egitimi",
+        "SQL kaynak",
+        "SQL dersi",
+        "SQL nasil ogrenirim",
+        "SQL nasil ogrenirim",
+        "SQL"
+      ],
+      "responses": [
+        "SQL egitimi baslangic:https://gelecegiyazanlar.turkcell.com.tr/konu/egitim/microsoft-sql-server-101/microsoft-sql-server-101e-baslarken",
+        "SQL egitimi orta duzey:https://gelecegiyazanlar.turkcell.com.tr/konu/egitim/microsoft-sql-server-201/veri-tipleri-0",
+        "SQL egitimi ileri duzey:https://gelecegiyazanlar.turkcell.com.tr/konu/egitim/microsoft-sql-server-301/index",
+        "SQL egitimi pro duzey:https://gelecegiyazanlar.turkcell.com.tr/konu/egitim/microsoft-sql-server-401/sql-serverda-backuprestore"
+      ]
+    },
+    {
+      "tag": "web-dev",
+      "patterns": [
+        "web programlama egitimi",
+        "html,css,javascript egitimi",
+        "web kaynak",
+        "web dersi",
+        "web nasil ogrenirim",
+        "web tasarim nasil ogrenirim",
+        "web"
+      ],
+      "responses": [
+        "HTML egitimi:https://gelecegiyazanlar.turkcell.com.tr/konu/egitim/101-html/htmle-giris",
+        "HTML5 VE CSS egitimi:https://gelecegiyazanlar.turkcell.com.tr/konu/egitim/201-html5-css/html5-ve-css-uzerine-genel-bilgiler",
+        "javascript egitimi:https://gelecegiyazanlar.turkcell.com.tr/konu/egitim/301-javascript/javascript-nedir",
+        "node.js egitimi:https://gelecegiyazanlar.turkcell.com.tr/konu/egitim/401-nodejs/nodejs-yazilimina-giris",
+        "jQuery egitimi:https://gelecegiyazanlar.turkcell.com.tr/konu/egitim/302-jquery/jquery-nedir",
+        "MongoDB egitimi:https://gelecegiyazanlar.turkcell.com.tr/konu/egitim/402-mongodb/mongodbye-giris"
+
+      ]
+    },
+    {
+      "tag": "Arduino",
+      "patterns": [
+        "arduino egitimleri",
+        "arduino kaynak",
+        "arduino dersi",
+        "arduino nasil ogrenirim",
+        "arduino nasil ogrenirim",
+        "arduino"
+      ],
+      "responses": [
+        "arduino baslangis seviye:https://gelecegiyazanlar.turkcell.com.tr/konu/egitim/arduino-101/elektronige-giris",
+        "arduino orta seviye:https://gelecegiyazanlar.turkcell.com.tr/konu/egitim/arduino-201/seri-port-uzerinden-haberlesme",
+        "arduino ileri seviye:https://gelecegiyazanlar.turkcell.com.tr/konu/egitim/arduino-301/arduinoda-analog-sinyal-uretme",
+        "arduino pro seviye:https://gelecegiyazanlar.turkcell.com.tr/konu/egitim/arduino-401/arduino-ile-interrupt-kesmeler"
+
+      ]
+    },
+    {
+      "tag": "game-dev",
+      "patterns": [
+        "oyun programlamami nasil gelistiririm",
+        "oyun programlama kaynak",
+        "oyun programlama dersi",
+        "oyun programlama nasil ogrenirim",
+        "oyun nasil ogrenirim",
+        "oyun programlama"
+      ],
+      "responses": [
+        "oyun gelistirmeye yeni baslayanlar icin:https://gelecegiyazanlar.turkcell.com.tr/konu/egitim/oyun-gelistirme-101/produksiyon",
+        "oyun gelistirme detayli bilgiler:https://gelecegiyazanlar.turkcell.com.tr/konu/egitim/oyun-gelistirme-201/teknoloji"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "bugun duzcede hava durumu nasil",
+        "bugun yagmur yagar mi",
+        "kar ne zaman yagar"
+      ],
+      "responses": [
+        "bugun hava gunesli git kampuste cimenlere uzan",
+        "bugun hava bulutlu uzerini kalin git usutme",
+        "bugun hava yagmurlu semsiyeni alamyi unutma",
+        "daha kar mevsimi gelmedi ne kar yagmasi",
+        "bugun duzcede kar yagacak mutlu ve huzurlu olmak icin bir sans",
+        "git ve kar eldivenlerini al bugun kar yagacak"
+      ]
+    },
+    {
+      "tag": "dsc",
+      "patterns": [
+        "dsc ne demek",
+        "dsc nedir",
+        "dsc duzce nedir",
+        "sosyal medya hesaplariniz var mi",
+        "internet siteniz var mi"
+      ],
+      "responses": [
+        "Developer Student Clubs Duzce olarak Google'a bagli bir ogrenci topluluguyuz.Teknolojiyi ve muhendisligi seven ogrencilerin bir araya gelmesini ve etkilesim kurarak kisisel olarak ogrencilerin gelismesini hedefliyoruz.",
+        "Internet sitemiz:http://dsc.community.dev/",
+        "sosyal medya hesaplarimiz Instagram:https://www.instagram.com/dscduzce/ ,Twitter:https://twitter.com/dscduzce"
+      ]
+    },
+    {
+      "tag": "social",
+      "patterns": [
+        "dsc duzce sosyal medya hesaplari",
+        "sosyal medya hesaplariniz var mi",
+        "internet siteniz var mi"
+      ],
+      "responses": [
+        "Internet sitemiz:http://dsc.community.dev/",
+        "sosyal medya hesaplarimiz Instagram:https://www.instagram.com/dscduzce/ ,Twitter:https://twitter.com/dscduzce"
+      ]
+    }
+  ]
+}
